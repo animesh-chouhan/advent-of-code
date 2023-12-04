@@ -1,4 +1,5 @@
 import re
+import time
 import pathlib
 
 input_path = pathlib.Path(__file__).parent.resolve() / "input.txt"
@@ -8,15 +9,16 @@ with open(input_path) as f:
     # lines = [line.strip() for line in f.readlines()]
     lines = f.read().split("\n")
 
-symbols = "~`!@#$%^&*()_+-=/"
+start_time = time.time()
 
+symbols = "~`!@#$%^&*()_+-=/"
 
 engine_parts = []
 for i, line in enumerate(lines):
     nums = re.finditer("\d+", line)
     for num in nums:
-        print(num)
-        print(num.group(0))
+        # print(num)
+        # print(num.group(0))
         start = num.start()
         end = num.end() - 1
         num_len = end - start + 1
@@ -71,5 +73,6 @@ for i, line in enumerate(lines):
             engine_parts.append(int(num.group(0)))
 
 
-print(engine_parts)
+# print(engine_parts)
 print(sum(engine_parts))
+print(f"Time taken: {time.time() - start_time}")
