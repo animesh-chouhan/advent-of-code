@@ -1,8 +1,7 @@
 import re
 import time
 import pathlib
-from functools import cmp_to_key
-from collections import Counter
+import math
 
 input_path = pathlib.Path(__file__).parent.resolve() / "input.txt"
 print(input_path)
@@ -16,20 +15,44 @@ with open(input_path) as f:
 start_time = time.time()
 
 
-def get_value(sequence):
-    # print(sequence)
-    diff = [sequence[i] - sequence[i - 1] for i in range(1, len(sequence))]
+instructions = lines[0]
+nodes = {
+    line.split(" = ")[0]: (
+        line.split(" = ")[1][1:-1].split(", ")[0],
+        line.split(" = ")[1][1:-1].split(", ")[1],
+    )
+    for line in lines[2:]
+}
 
-    if set(diff) == {0}:
-        return sequence[0]
-    return sequence[0] - get_value(diff)
+# print(instructions)
+# print(nodes)
 
 
-value_list = [list(map(int, line.split())) for line in lines]
-# print(value_list)
+def get_steps(next_node):
+    steps = 0
+    found = False
+    while not found:
+        for i in instructions:
+            if i == "L":
+                next_node = nodes[next_node][0]
+            elif i == "R":
+                next_node = nodes[next_node][1]
 
-next_value_list = [get_value(l) for l in value_list]
-# print(next_value_list)
-print(sum(next_value_list))
+            steps += 1
+            print(steps, i, next_node)
+            if next_node[2] == "Z":
+                found = True
+                break
 
+    return steps
+
+
+steps_list = []
+nodes_a = [node for node in nodes if node[2] == "A"]
+for node in nodes_a:
+    steps_list.append(get_steps(node))
+
+
+print(steps_list)
+print(math.lcm(*steps_list))
 print(f"Time taken: {time.time() - start_time}")
