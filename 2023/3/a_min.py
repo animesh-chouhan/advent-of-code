@@ -23,6 +23,7 @@ for l, line in enumerate(lines):
         num_int = int(num.group(0))
         start = num.start()
         end = num.end()
+
         num_len = end - start
         # print(start, end)
         flags = []

@@ -1,0 +1,30 @@
+/home/animesh/Github/advent-of-code/2023/5/input.txt
+{'soil': 81, 'fertilizer': 81, 'water': 81, 'light': 74, 'temp': 78, 'hum': 78, 'location': 82}
+{'soil': 82, 'fertilizer': 82, 'water': 82, 'light': 75, 'temp': 79, 'hum': 79, 'location': 83}
+{'soil': 83, 'fertilizer': 83, 'water': 83, 'light': 76, 'temp': 80, 'hum': 80, 'location': 84}
+{'soil': 84, 'fertilizer': 84, 'water': 84, 'light': 77, 'temp': 45, 'hum': 46, 'location': 46}
+{'soil': 85, 'fertilizer': 85, 'water': 85, 'light': 78, 'temp': 46, 'hum': 47, 'location': 47}
+{'soil': 86, 'fertilizer': 86, 'water': 86, 'light': 79, 'temp': 47, 'hum': 48, 'location': 48}
+{'soil': 87, 'fertilizer': 87, 'water': 87, 'light': 80, 'temp': 48, 'hum': 49, 'location': 49}
+{'soil': 88, 'fertilizer': 88, 'water': 88, 'light': 81, 'temp': 49, 'hum': 50, 'location': 50}
+{'soil': 89, 'fertilizer': 89, 'water': 89, 'light': 82, 'temp': 50, 'hum': 51, 'location': 51}
+{'soil': 90, 'fertilizer': 90, 'water': 90, 'light': 83, 'temp': 51, 'hum': 52, 'location': 52}
+{'soil': 91, 'fertilizer': 91, 'water': 91, 'light': 84, 'temp': 52, 'hum': 53, 'location': 53}
+{'soil': 92, 'fertilizer': 92, 'water': 92, 'light': 85, 'temp': 53, 'hum': 54, 'location': 54}
+{'soil': 93, 'fertilizer': 93, 'water': 93, 'light': 86, 'temp': 54, 'hum': 55, 'location': 55}
+{'soil': 94, 'fertilizer': 94, 'water': 94, 'light': 87, 'temp': 55, 'hum': 56, 'location': 60}
+{'soil': 57, 'fertilizer': 57, 'water': 53, 'light': 46, 'temp': 82, 'hum': 82, 'location': 86}
+{'soil': 58, 'fertilizer': 58, 'water': 54, 'light': 47, 'temp': 83, 'hum': 83, 'location': 87}
+{'soil': 59, 'fertilizer': 59, 'water': 55, 'light': 48, 'temp': 84, 'hum': 84, 'location': 88}
+{'soil': 60, 'fertilizer': 60, 'water': 56, 'light': 49, 'temp': 85, 'hum': 85, 'location': 89}
+{'soil': 61, 'fertilizer': 61, 'water': 61, 'light': 54, 'temp': 90, 'hum': 90, 'location': 94}
+{'soil': 62, 'fertilizer': 62, 'water': 62, 'light': 55, 'temp': 91, 'hum': 91, 'location': 95}
+{'soil': 63, 'fertilizer': 63, 'water': 63, 'light': 56, 'temp': 92, 'hum': 92, 'location': 96}
+{'soil': 64, 'fertilizer': 64, 'water': 64, 'light': 57, 'temp': 93, 'hum': 93, 'location': 56}
+{'soil': 65, 'fertilizer': 65, 'water': 65, 'light': 58, 'temp': 94, 'hum': 94, 'location': 57}
+{'soil': 66, 'fertilizer': 66, 'water': 66, 'light': 59, 'temp': 95, 'hum': 95, 'location': 58}
+{'soil': 67, 'fertilizer': 67, 'water': 67, 'light': 60, 'temp': 96, 'hum': 96, 'location': 59}
+{'soil': 68, 'fertilizer': 68, 'water': 68, 'light': 61, 'temp': 97, 'hum': 97, 'location': 97}
+{'soil': 69, 'fertilizer': 69, 'water': 69, 'light': 62, 'temp': 98, 'hum': 98, 'location': 98}
+46
+Time taken: 0.000331878662109375
