@@ -13,7 +13,7 @@ Constant timeout errors on the website :(
 > _How many reports are safe?_
 
 1. Create list
-2. Reverse the list if it seems descending
+2. Reverse the list if it seems descending (instead of reversing we can multiply each element by -1 too)
 3. Check for condition and increment counter
 
 One-liner after parsing the input:
