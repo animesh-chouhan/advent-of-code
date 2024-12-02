@@ -29,7 +29,7 @@ SC: O(n)
 
 Got too hung up on the greedy approach which turned out to be incorrect. Wasted a lot of time lol.
 
-> _What is their similarity score?_
+> _How many reports are now safe?_
 
 1. Same approach as part A
 2. Check for normal case
