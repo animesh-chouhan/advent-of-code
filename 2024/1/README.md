@@ -20,7 +20,7 @@ One-liner after parsing the input:
 print(sum(abs(a - b) for a, b in zip(*[sorted(x) for x in zip(*[map(int, line.split()) for line in lines])])))
 ```
 
-TC: O(nlogn)
+TC: O(nlogn)\
 SC: O(n)
 
 ### Part B
@@ -39,7 +39,7 @@ One-liner after parsing the input:
 print(sum(e * Counter(map(int, (l.split()[1] for l in lines)))[e] for e in map(int, (l.split()[0] for l in lines))))
 ```
 
-TC: O(n)
+TC: O(n)\
 SC: O(n)
 
 ## Results
