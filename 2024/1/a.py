@@ -24,7 +24,9 @@ for a, b in zip(l1, l2):
 
 print(ret)
 
+# One-liner
 # print(sum(abs(a - b) for a, b in zip(*[sorted(x) for x in zip(*[map(int, line.split()) for line in lines])])))
+# One-liner un-rolled
 print(
     sum(
         abs(a - b)

@@ -23,7 +23,9 @@ for e in l1:
 
 print(ret)
 
+# One-liner
 # print(sum(e * Counter(map(int, (l.split()[1] for l in lines)))[e] for e in map(int, (l.split()[0] for l in lines))))
+# One-liner un-rolled
 print(
     sum(
         e * Counter(map(int, (l.split()[1] for l in lines)))[e]

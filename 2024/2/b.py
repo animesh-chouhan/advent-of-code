@@ -1,32 +1,54 @@
 import pathlib
-from collections import Counter
 
 input_path = pathlib.Path(__file__).parent.resolve() / "input.txt"
-print(input_path)
+# print(input_path)
 
 with open(input_path) as f:
     # lines = [line.strip() for line in f.readlines()]
     lines = f.read().split("\n")
 
-l1 = []
-l2 = []
 
-for l in lines:
-    a, b = map(int, l.split())
-    l1.append(a)
-    l2.append(b)
+def check(nums):
+    return all(1 <= nums[i + 1] - nums[i] <= 3 for i in range(len(nums) - 1))
 
-c = Counter(l2)
+
 ret = 0
-for e in l1:
-    ret += e * c[e]
+for l in lines:
+    nums = list(map(int, l.split()))
+
+    if check(nums) or check(nums[::-1]):
+        ret += 1
+        continue
+
+    if any(check(nums[:i] + nums[i + 1 :]) for i in range(len(nums))):
+        ret += 1
+        continue
+
+    nums = nums[::-1]
+    if any(check(nums[:i] + nums[i + 1 :]) for i in range(len(nums))):
+        ret += 1
+        continue
 
 print(ret)
 
-# print(sum(e * Counter(map(int, (l.split()[1] for l in lines)))[e] for e in map(int, (l.split()[0] for l in lines))))
+# One-liner
+# print(sum(1 for l in lines if (not(check := lambda nums: all(1 <= nums[i + 1] - nums[i] <= 3 for i in range(len(nums) - 1)))) or (check(nums := list(map(int, l.split())))) or (check(nums[::-1])) or any(check(nums[:i] + nums[i + 1 :]) for i in range(len(nums))) or any(check((nums[:i] + nums[i + 1 :])[::-1]) for i in range(len(nums)))))
+
+# One-liner un-rolled
 print(
     sum(
-        e * Counter(map(int, (l.split()[1] for l in lines)))[e]
-        for e in map(int, (l.split()[0] for l in lines))
+        1
+        for l in lines
+        if (
+            not (
+                check := lambda nums: all(
+                    1 <= nums[i + 1] - nums[i] <= 3 for i in range(len(nums) - 1)
+                )
+            )
+        )
+        or (check(nums := list(map(int, l.split()))))
+        or (check(nums[::-1]))
+        or any(check(nums[:i] + nums[i + 1 :]) for i in range(len(nums)))
+        or any(check((nums[:i] + nums[i + 1 :])[::-1]) for i in range(len(nums)))
     )
 )
