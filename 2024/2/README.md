@@ -91,8 +91,6 @@ $$
 x = \sum_{j=1}^{m-1} I(|A_{ij} - A_{i,j+1}|)
 $$
 
-Where $A_{ij}$ is the element at row $i$ and column $j$, and $A_{i,j+1}$ is the element at row $i$ and column $j+1$.
-
 Finally, we can use a function called **Kronecker delta**, which is defined as:
 
 $$
