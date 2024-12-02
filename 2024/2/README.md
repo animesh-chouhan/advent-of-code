@@ -22,7 +22,7 @@ One-liner after parsing the input:
 print(sum(1 for l in lines if ((((nums := list(map(int, l.split())))[1] > nums[0]) or (nums := nums[::-1])) and all(1 <= nums[i + 1] - nums[i] <= 3 for i in range(len(nums) - 1)))))
 ```
 
-TC: O(n)
+TC: O(n)\
 SC: O(n)
 
 ### Part B
@@ -42,12 +42,12 @@ One-liner after parsing the input:
 print(sum(1 for l in lines if (not(check := lambda nums: all(1 <= nums[i + 1] - nums[i] <= 3 for i in range(len(nums) - 1)))) or (check(nums := list(map(int, l.split())))) or (check(nums[::-1])) or any(check(nums[:i] + nums[i + 1 :]) for i in range(len(nums))) or any(check((nums[:i] + nums[i + 1 :])[::-1]) for i in range(len(nums)))))
 ```
 
-TC: O(n^2)
+TC: O(n^2)\
 SC: O(n)
 
 The time-complexity can be further reduced to O(n) by checking the full sequence only once at the first index where the condition fails. Two cases: 1. remove the current index or 2. remove the next index
 
-TC: O(n)
+TC: O(n)\
 SC: O(n)
 
 Check b1.py or b2.py!
