@@ -16,3 +16,4 @@ This repo contains my solutions to https://adventofcode.com puzzles
 - [Martin Zikmund | Advent of Code 2024 | YouTube](https://www.youtube.com/watch?v=a3allbAnOlk&list=PLC0wF4Qw6SDOackN-U_JvIN5NFVSAgyn0)
 - [Josh Ackland | Advent of Code 2024 Go | YouTube](https://www.youtube.com/watch?v=WvGr8xic__w&list=PLcosLLz1zAjI9hb9XzqYDAU73Xggjd9g9)
 - [chris biscardi| advent of code 2024 | YouTube](https://www.youtube.com/watch?v=GywtTIFQUnQ&list=PLWtPciJ1UMuBABpu6LeP0ZZnvpVMRZvGc)
+- [Kotlin by JetBrains | Advent of Code 2024 in Kotlin | YouTube](https://www.youtube.com/watch?v=fwEUDQBTPKM&list=PLlFc5cFwUnmwHaD3-qeoLHnho_PY2g9JX)
