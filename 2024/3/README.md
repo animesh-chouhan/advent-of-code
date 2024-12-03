@@ -2,7 +2,7 @@
 
 https://adventofcode.com/2024/day/3
 
-Just use regex lol.
+Just use regex lol: https://regexr.com/
 
 ## Data format
 
