@@ -42,3 +42,13 @@ print(sum(int(x) * int(y) for match in re.findall(r"mul\(\d+,\d+\)|do\(\)|don't\
 | 3   | 00:10:42 | 4551 | 0     | 00:32:56 | 6579 | 0     |
 | 2   | 00:07:33 | 1459 | 0     | 01:00:47 | 8598 | 0     |
 | 1   | 00:02:13 | 395  | 0     | 00:04:05 | 453  | 0     |
+
+## Media
+
+### Regex
+
+![title](aoc-day3-regex.png)
+
+### One-liner
+
+![title](aoc-day3.png)
