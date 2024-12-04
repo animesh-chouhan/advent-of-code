@@ -27,7 +27,7 @@ SC: O(1)
 
 > _How many times does an X-MAS appear?_
 
-1. Look for X
+1. Look for
 2. Match the possible patterns in all directions
 
 One-liner after parsing the input:
