@@ -4,7 +4,7 @@ https://adventofcode.com/2024/day/4
 
 ## Data format
 
-Each line contains 2 numbers which are part of lists l1, l2 respectively.
+The input is a grid containing chars.
 
 ### Part A
 
