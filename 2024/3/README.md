@@ -47,8 +47,12 @@ print(sum(int(x) * int(y) for match in re.findall(r"mul\(\d+,\d+\)|do\(\)|don't\
 
 ### Regex
 
-![title](aoc-day3-regex.png)
+![title](media/aoc-day3-regex.png)
 
 ### One-liner
 
-![title](aoc-day3.png)
+![title](media/aoc-day3.png)
+
+### Day 3 Summarized
+
+![title](media/regex-meme.jpeg)
