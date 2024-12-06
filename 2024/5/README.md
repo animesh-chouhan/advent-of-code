@@ -6,7 +6,9 @@ https://adventofcode.com/2024/day/5
 
 The input contains both rules and evaluation patterns.
 
-### Part A
+## Approach
+
+### Part 1
 
 > _What do you get if you add up the middle page number from those correctly-ordered updates?_
 
@@ -37,7 +39,7 @@ for o in orders:
 print(ret)
 ```
 
-### Part B
+### Part 2
 
 > _What do you get if you add up the middle page numbers after correctly ordering just those updates?_
 
@@ -76,3 +78,7 @@ print(ret)
 | 3   | 00:10:42 | 4551 | 0     | 00:32:56 | 6579 | 0     |
 | 2   | 00:07:33 | 1459 | 0     | 01:00:47 | 8598 | 0     |
 | 1   | 00:02:13 | 395  | 0     | 00:04:05 | 453  | 0     |
+
+## Media
+
+![title](media/aoc-day5.png)
