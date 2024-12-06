@@ -38,4 +38,12 @@ The input is a grid containing chars.
 
 ## Media
 
+### Using complex numbers rotation property
+
+![title](media/complex-rotation.jpg)
+
+![title](media/day6-complex.png)
+
+### Both parts
+
 ![title](media/aoc-day6.png)
