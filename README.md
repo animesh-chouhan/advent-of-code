@@ -2,6 +2,8 @@
 
 This repo contains my solutions to https://adventofcode.com puzzles
 
+Visualization: https://aoc.xhyrom.dev/
+
 ## Other repos:
 
 - https://github.com/jonathanpaulson/AdventOfCode
@@ -9,6 +11,13 @@ This repo contains my solutions to https://adventofcode.com puzzles
 - https://github.com/Nohus/AdventofCode2023
 - https://github.com/sethgirvan/advent-of-code-2023
 - https://github.com/jlacar/aoc-in-kotlin-all
+- https://github.com/shraddhaag/aoc
+- https://github.com/xhyrom/aoc
+- https://github.com/CameronBrooksWalker/Advent-of-Code
+- https://github.com/Nohus/AdventofCode2024
+- https://github.com/jen-Ya/aoc24-wasm
+- https://github.com/vi-me-vi/aoc2024
+- https://github.com/goodpaul6/advent
 
 ## YouTube:
 
