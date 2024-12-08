@@ -18,6 +18,8 @@ Visualization: https://aoc.xhyrom.dev/
 - https://github.com/jen-Ya/aoc24-wasm
 - https://github.com/vi-me-vi/aoc2024
 - https://github.com/goodpaul6/advent
+- https://github.com/jatinkrmalik/advent-of-code-2024
+- https://github.com/shantanugoel/advent-of-code-2024
 
 ## YouTube:
 
