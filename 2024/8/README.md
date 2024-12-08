@@ -26,6 +26,8 @@ The input is a grid containing positions of antennas.
 2. For each pair of antennas find all possible points which lie on the same line
 3. Check if that point lies in the grid
 
+Part 2 had weak test cases, the corrected code is in `b2.py`.
+
 ## Results
 
 | Day | Time     | Rank | Score | Time     | Rank | Score |
@@ -45,6 +47,10 @@ The input is a grid containing positions of antennas.
 
 ![title](media/aoc-day8-part1.png)
 
-### Part 2
+### Part 2 (Weak testcases)
 
 ![title](media/aoc-day8-part2.png)
+
+### Part 2 (Correct)
+
+![title](media/aoc-day8-part2-correct.png)
