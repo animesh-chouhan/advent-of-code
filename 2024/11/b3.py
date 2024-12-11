@@ -1,7 +1,10 @@
 import functools
+from math import log
+import sys
 
+sys.setrecursionlimit(15000)
 nums = list(map(int, open("input.txt").read().split()))
-steps = 75
+steps = 2000
 
 
 @functools.cache
@@ -10,9 +13,10 @@ def visit(num, step):
         return 1
     if num == 0:
         return visit(1, step + 1)
-    s, l = str(num), len(str(num))
+    l = int(log(num, 10)) + 1
+    d = pow(10, l // 2)
     if l % 2 == 0:
-        return visit(int(s[: l // 2]), step + 1) + visit(int(s[l // 2 :]), step + 1)
+        return visit(num // d, step + 1) + visit(num % d, step + 1)
     else:
         return visit(num * 2024, step + 1)
 
