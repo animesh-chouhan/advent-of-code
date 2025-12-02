@@ -1,7 +1,7 @@
 import functools
 
 nums = list(map(int, open("input.txt").read().split()))
-steps = 25
+steps = 3000
 
 
 @functools.cache

@@ -1,7 +1,9 @@
+import sys
 import functools
 
 nums = list(map(int, open("input.txt").read().split()))
-steps = 75
+steps = 3000
+sys.setrecursionlimit(15000)
 
 
 @functools.cache
